@@ -1,6 +1,6 @@
 # SORTING ALGORYTHMS
 
-**Made by :** 
+**Made by :**
  - [Hamza Karkouch ](https://github.com/)
  - [Adrien Vieilledent](https://github.com/vlldnt)
 
