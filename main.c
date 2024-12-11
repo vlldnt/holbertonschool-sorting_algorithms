@@ -9,17 +9,17 @@
  */
 void print_array(const int *array, size_t size)
 {
-    size_t i;
+	size_t i;
 
-    i = 0;
-    while (array && i < size)
-    {
-        if (i > 0)
-            printf(", ");
-        printf("%d", array[i]);
-        ++i;
-    }
-    printf("\n");
+	i = 0;
+	while (array && i < size)
+	{
+		if (i > 0)
+			printf(", ");
+		printf("%d", array[i]);
+		++i;
+	}
+	printf("\n");
 }
 
 void main(int)
@@ -30,15 +30,15 @@ void main(int)
 	int temp;
 
 	for (i = 0; i < size - 1; i++)
-       	{
-                {
+	{
+		{
 			if (array[i + 1] < array[i])
 			{
-                       		temp = array[i + 1];
-                        	array[i + 1] = array[i];
-                       	 	array[i] = temp;
+				temp = array[i + 1];
+				array[i + 1] = array[i];
+				array[i] = temp;
 			}
-                }
-        print_array(array, size);		
-        }
+		}
+		print_array(array, size);
+	}
 }
