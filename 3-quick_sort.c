@@ -10,7 +10,7 @@
  * Return: The index pivot.
  */
 
-int	lomuto_partition(int *array, int low, int high, size_t size)
+int lomuto_partition(int *array, int low, int high, size_t size)
 {
 	int pivot = array[high];
 	int i = low - 1;
@@ -49,7 +49,7 @@ int	lomuto_partition(int *array, int low, int high, size_t size)
  * @size: Number of elements in the array.
  */
 
-void	quick_sort_recursive(int *array, int low, int high, size_t size)
+void quick_sort_recursive(int *array, int low, int high, size_t size)
 {
 	if (low < high)
 	{
@@ -66,7 +66,7 @@ void	quick_sort_recursive(int *array, int low, int high, size_t size)
  * @size: Number of elements in the array.
  */
 
-void	quick_sort(int *array, size_t size)
+void quick_sort(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
 		return;
