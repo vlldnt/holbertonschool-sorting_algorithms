@@ -5,7 +5,7 @@
  * @list: Pointer of pointer to the list of integer.
  */
 
-void	insertion_sort_list(listint_t **list)
+void insertion_sort_list(listint_t **list)
 {
 	listint_t *current, *next, *temp;
 
